@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-// import NovelSipsImage from '../../assets/images/novelsips.png';
+import NovelSipsImage from '../../assets/img/novelsips.png';
 
 const Portfolio = () => {
     return (
@@ -13,7 +13,7 @@ const Portfolio = () => {
                 {/* 1st project card - Novel Sips */}
                 <div>
                     {/* project img card */}
-                    {/* <img className='novelsipsimg' src={NovelSipsImage} alt="Novel Sips Application" /> */}
+                    <img className='novelsipsimg' src={NovelSipsImage} alt="Novel Sips Application" />
 
                     {/* only show these links on hover */}
                     <div className='project-links'>
