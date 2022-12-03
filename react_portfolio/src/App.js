@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+// import components
+import Nav from "./components/HeaderNav";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
+
 function App() {
+
+  const [pageIndex, setPageIndex] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav
+        showAbout={() => setPageIndex(0)}
+        showPortfolio={() => setPageIndex(1)}
+        showContact={() => setPageIndex(2)}
+        showResume={() => setPageIndex(3)}
+      />
+      {pageIndex === 0 ? (
+        <About />
+      ) : pageIndex === 1 ? (
+        <Portfolio />
+      ) : pageIndex === 2 ? (
+        <Contact />
+      ) : pageIndex === 3 ? (
+        <Resume />
+      ) : (
+        <About />
+      )}
+
+      <Footer />
+
     </div>
   );
 }
