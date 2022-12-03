@@ -1,38 +1,260 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 130px;
+  background-color: blueviolet;
+}
+
+/* my name in the top left of pg */
+.nameheader {
+  color: white;
+  width: 40%;
+  text-align: left;
+  padding-top: 45px;
+  padding-left: 30px;
+}
+
+/* positioning of navbar */
+.navbar {
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+/* styling of links in navbar */
+.navlinks {
+  text-decoration: none;
+  display: inline;
+  padding-right: 65px;
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
   text-align: center;
+  bottom: 0;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  width: 100%;
+  background-color: blueviolet;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer li {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* color and styling for footer links */
+footer li a {
+  text-decoration: none;
+  color: rgb(178, 124, 229);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* hover color change for footer links */
+footer li a:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* pg titles for about, contact, portfolio, and resume */
+.aboutpgtitle,
+.contactpgtitle,
+.portfoliopgtitle,
+.resumepgtitle {
+  margin-top: 13%;
+  margin-left: 6%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* profile pic in about pg */
+.profilepic {
+  border-radius: 150px 150px;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 6%;
+}
+
+/* about me paragraph */
+.aboutparagraph {
+  width: 88%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/* beginning of css for contact pg */
+/* card with contact form */
+.contactform {
+  margin-left: 6%;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+/* title for input info on contact pg */
+.contactinputtitle {
+  font-weight: bold;
+  padding-right: 70%;
+  color: rgb(178, 124, 229);
+}
+
+/* input for user name and email on contact pg */
+.nameinput,
+.emailinput {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  width: 400px;
+}
+
+/* input for user msg on contact pg */
+.messageinput {
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.errormsg {
+  color: red;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+/* submit button for contact form on contact pg */
+.contactform-submit-btn {
+  margin-top: 10px;
+  width: 70px;
+  height: 35px;
+  font-size: 14px;
+  padding: 6px 6px;
+  border: none;
+  border-radius: 5px 5px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
+
+.contactform-submit-btn:hover {
+  cursor: pointer;
+}
+
+.contactmeinfo {
+  width: 30%;
+  margin-left: 55%;
+  margin-top: -370px;
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.contactme-p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.phoneicon,
+.emailicon,
+.whatsappicon {
+  color: rgb(178, 124, 229);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.phoneicon:hover,
+.emailicon:hover,
+.whatsappicon:hover {
+  color: white;
+}
+
+/* beginning of css for portfolio pg */
+/* container with all project cards in portfolio pg*/
+.projectcards {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+/* image cards in portfolio pg */
+.novelsipsimg {
+  height: 250px;
+  width: 400px;
+}
+
+.project-links {
+  margin-top: -190px;
+  margin-left: 50px;
+}
+
+/* project title in portfolio pg */
+.projectlink {
+  color: white;
+  text-decoration: none;
+}
+
+/* .githubrepoicon {} */
+
+/* beginning of css for resume pg */
+/* container for resume info */
+.resumeinfo {
+  margin-left: 6%;
+  padding-top: 30px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+/* placement of resume download icon */
+.resumedownloadicon {
+  margin-left: 175px;
+  margin-top: -19px;
+  margin-bottom: 20px;
+}
+
+/* link to download resume */
+.resumelink {
+  color: rgb(178, 124, 229);
+  text-decoration: none;
+}
+
+/* title for resume proficiencies */
+.proficiencytitles {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(178, 124, 229);
+}
+
+.front-end {
+  width: 25%;
+}
+
+.back-end {
+  width: 25%;
+  margin-left: 28%;
+  margin-top: -190px;
+}
+
+/* bullet items in resume */
+.resumeinfo li {
+  padding-left: 40px;
+  list-style: none;
+}
+
+/* bullet items in resume */
+.resumeinfo li::before {
+  content: "\2022";
+  color: rgb(178, 124, 229);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
