@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import Header from "./components/HeaderNav";
+import Header from "./components/Header";
 // import Nav from "./components/HeaderNav";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+// import About from "./components/About";
+// import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
+// import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 const About = () => <div>About</div>;
