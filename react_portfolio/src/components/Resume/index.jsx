@@ -3,7 +3,6 @@ import { BsCloudDownload } from 'react-icons/bs';
 import { DiHtml5, DiCss3, DiJqueryLogo, DiReact, DiNodejsSmall } from 'react-icons/di';
 // responsive design icon
 import { TbBrandBootstrap, TbApi } from 'react-icons/tb';
-import { FaNodeJs } from 'react-icons/fa';
 import { SiJavascript, SiExpress, SiSequelize, SiMongodb } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 // mongoose icon

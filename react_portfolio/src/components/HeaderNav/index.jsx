@@ -1,7 +1,7 @@
 import React from 'react';
 
 // const Header = ({ showAbout, showPortfolio, showContact, showResume }) => {
-const Header = () => {
+const HeaderNav = () => {
     return (
 
         <div>
@@ -24,4 +24,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HeaderNav;
