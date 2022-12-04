@@ -28,13 +28,17 @@ header {
 
 }
 
-/* my name in the top left of pg */
+/* position my name in the top left of pg */
 .nameheader {
-  color: white;
   width: 40%;
   text-align: left;
   padding-top: 45px;
   padding-left: 30px;
+}
+
+.nameheader a {
+  text-decoration: none;
+  color: white;
 }
 
 /* positioning of navbar */
@@ -143,7 +147,14 @@ footer li a:hover {
   }
 }
 
+.bgimg {
+  box-sizing: border-box;
+  height: 100%;
+  background-image: url('./assets/img/');
+}
+
 /* pg titles for about, contact, portfolio, and resume */
+.homepgtitle,
 .aboutpgtitle,
 .contactpgtitle,
 .portfoliopgtitle,
