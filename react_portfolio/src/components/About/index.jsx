@@ -1,4 +1,5 @@
 import React from 'react';
+import MacBookImg from '../../assets/img/macbook.png';
 
 const About = () => {
     return (
@@ -21,6 +22,10 @@ const About = () => {
                 enjoying every moment of it, and am looking forward to completing the program and beginning
                 my career in web development!
             </p>
+
+            <div className='macbook-img'>
+                <img className='macbookimg' src={MacBookImg} alt="MacBook" />
+            </div>
 
         </div>
 

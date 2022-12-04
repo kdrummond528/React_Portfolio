@@ -13,7 +13,7 @@ const Portfolio = () => {
                 {/* 1st project card - Novel Sips */}
                 <div>
                     {/* project img card */}
-                    <img className='novelsipsimg' src={NovelSipsImage} alt="Novel Sips Application" />
+                    <img className='novelsipsimg' src={NovelSipsImage} alt="Novel Sips App" />
 
                     {/* only show these links on hover */}
                     <div className='project-links'>
