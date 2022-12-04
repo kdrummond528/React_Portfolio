@@ -111,8 +111,14 @@ footer li a:hover {
   background-color: #e71335;
 }
 
+.macbook-img {
+  margin-top: -200px;
+  margin-left: 65%;
+}
+
 .macbookimg {
-  background-image: url('./assets/img/macbook.png');
+  width: 500px;
+  height: 250px;
 }
 
 /* beginning of css for contact pg */
