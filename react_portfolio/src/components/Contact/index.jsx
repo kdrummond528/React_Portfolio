@@ -91,18 +91,19 @@ const Contact = () => {
                 </div>
             </form>
 
+            {/* container with direct contact information */}
             < section className='contactmeinfo' >
                 <p className='contactme-p'>Feel free to contact me directly!</p>
                 {/* phone number */}
                 <a className='phoneicon' href="tel:+14072719542" title="Call or text me!">
-                    <FaMobileAlt size={'2rem'} /></a>
+                    <FaMobileAlt className='icon' size={'2rem'} /></a>
                 {/* email */}
                 <a className='emailicon' href="mailto: k.drummond528@gmail.com" title='Send me an email!'>
-                    <TfiEmail size={'2rem'} />
+                    <TfiEmail className='icon' size={'2rem'} />
                 </a>
                 {/* whatsapp */}
                 <a className='whatsappicon' href="https://api.whatsapp.com/send?1=pt_BR&phone=+14072719542" title='WhatsApp Me!'>
-                    <SiWhatsapp size={'2.2rem'} />
+                    <SiWhatsapp className='icon' size={'2.2rem'} />
                 </a>
             </section >
 

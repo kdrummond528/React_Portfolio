@@ -12,18 +12,18 @@ const Footer = () => {
                 <ul>
                     {/* github */}
                     <li><a href="https://github.com/kdrummond528" target={'_blank'} rel="noreferrer" title="Check out my GitHub!">
-                        <FaGithub size={"2em"} /></a>
+                        <FaGithub className='icon' size={"2em"} /></a>
                     </li>
 
                     {/* linkedin */}
                     <li><a href="https://www.linkedin.com/in/karinadrummond" target={'_blank'} rel="noreferrer" title="Connect with me on LinkedIn!">
-                        <FaLinkedinIn size={"2em"} /></a>
+                        <FaLinkedinIn className='icon' size={"2em"} /></a>
                     </li>
 
                     {/* stackoverflow */}
                     <li>
                         <a href="https://stackoverflow.com/users/20670765/karina-drummond" target={'_blank'} rel="noreferrer" title='Check out my StackOverflow!'>
-                            <FaStackOverflow size={"2em"} /></a>
+                            <FaStackOverflow className='icon' size={"2em"} /></a>
                     </li>
                 </ul>
             </footer>
