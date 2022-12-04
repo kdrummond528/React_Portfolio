@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-
-// import components
 import Nav from "./components/HeaderNav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -36,6 +34,7 @@ function App() {
       <Footer />
 
     </div>
+
   );
 }
 

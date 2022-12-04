@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { FaMobileAlt } from 'react-icons/fa';
 import { TfiEmail } from 'react-icons/tfi';
 import { SiWhatsapp } from 'react-icons/si';
-import MacBookImg from '../../assets/img/macbook.png';
 
 const Contact = () => {
     const initialValues = { name: "", email: "", message: "" };
@@ -104,10 +103,6 @@ const Contact = () => {
                     <SiWhatsapp size={'2.2rem'} />
                 </a>
             </section >
-
-            <div className='macbook-img'>
-                <img className='macbookimg' src={MacBookImg} alt="MacBook" />
-            </div>
 
         </div >
 
