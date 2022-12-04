@@ -22,25 +22,25 @@ const Resume = () => {
 
                 <div className='front-end'>
                     <h3 className='proficiencytitles'>Front-end Proficiencies</h3>
-                    <li>HTML <DiHtml5 color='rgb(178, 124, 229)' /></li>
-                    <li>CSS <DiCss3 color='rgb(178, 124, 229)' /></li>
-                    <li>JavaScript <SiJavascript color='rgb(178, 124, 229)' /></li>
-                    <li>JQuery <DiJqueryLogo color='rgb(178, 124, 229)' /></li>
+                    <li>HTML <DiHtml5 color='gold' /></li>
+                    <li>CSS <DiCss3 color='gold' /></li>
+                    <li>JavaScript <SiJavascript color='gold' /></li>
+                    <li>JQuery <DiJqueryLogo color='gold' /></li>
                     <li>Responsive Design</li>
-                    <li>React <DiReact color='rgb(178, 124, 229)' /></li>
-                    <li>Bootstrap <TbBrandBootstrap color='rgb(178, 124, 229)' /></li>
+                    <li>React <DiReact color='gold' /></li>
+                    <li>Bootstrap <TbBrandBootstrap color='gold' /></li>
                 </div>
 
                 <div className='back-end'>
                     <h3 className='proficiencytitles'>Back-end Proficiencies</h3>
                     <li>APIs</li>
-                    <li>Node <DiNodejsSmall color='rgb(178, 124, 229)' /></li>
-                    <li>Express <SiExpress color='rgb(178, 124, 229)' /></li>
-                    <li>MySQL <GrMysql color='rgb(178, 124, 229)' /> ,
-                        Sequelize <SiSequelize color='rgb(178, 124, 229)' /></li>
-                    <li>MongoDB <SiMongodb color='rgb(178, 124, 229)' />, Mongoose</li>
-                    <li>REST <TbApi color='rgb(178, 124, 229)' /></li>
-                    <li>GraphQL <GrGraphQl color='rgb(178, 124, 229)' /></li>
+                    <li>Node <DiNodejsSmall color='gold' /></li>
+                    <li>Express <SiExpress color='gold' /></li>
+                    <li>MySQL <GrMysql color='gold' /> ,
+                        Sequelize <SiSequelize color='gold' /></li>
+                    <li>MongoDB <SiMongodb color='gold' />, Mongoose</li>
+                    <li>REST <TbApi color='gold' /></li>
+                    <li>GraphQL <GrGraphQl color='gold' /></li>
                 </div>
 
             </section>

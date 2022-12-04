@@ -62,7 +62,6 @@ header {
   padding-top: 12px;
   padding-bottom: 5px;
   width: 100%;
-  background-color: blueviolet;
 }
 
 footer li {
@@ -74,7 +73,7 @@ footer li {
 /* color and styling for footer links */
 footer li a {
   text-decoration: none;
-  color: rgb(178, 124, 229);
+  color: gold;
 }
 
 /* hover color change for footer links */
@@ -106,10 +105,10 @@ footer li a:hover {
   margin-left: 6%;
   margin-right: 6%;
   color: white;
-  border: 1px solid blueviolet;
+  border: 1px solid white;
   border-radius: 10px 10px;
   padding: 15px 15px;
-  background-color: rgb(178, 124, 229);
+  background-color: #e71335;
 }
 
 /* beginning of css for contact pg */
@@ -125,7 +124,7 @@ footer li a:hover {
 .contactinputtitle {
   font-weight: bold;
   padding-right: 70%;
-  color: rgb(178, 124, 229);
+  color: #e71335;
 }
 
 /* input for user name and email on contact pg */
@@ -145,7 +144,7 @@ footer li a:hover {
 }
 
 .errormsg {
-  color: red;
+  color: gold;
   padding-bottom: 10px;
   font-size: 14px;
 }
@@ -159,7 +158,7 @@ footer li a:hover {
   padding: 6px 6px;
   border: none;
   border-radius: 5px 5px;
-  background-color: blueviolet;
+  background-color: #e71335;
   color: white;
   font-weight: bold;
 }
@@ -184,7 +183,7 @@ footer li a:hover {
 .phoneicon,
 .emailicon,
 .whatsappicon {
-  color: rgb(178, 124, 229);
+  color: gold;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -239,7 +238,7 @@ footer li a:hover {
 
 /* link to download resume */
 .resumelink {
-  color: rgb(178, 124, 229);
+  color: gold;
   text-decoration: none;
 }
 
@@ -248,7 +247,7 @@ footer li a:hover {
   font-size: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: rgb(178, 124, 229);
+  color: #e71335;
 }
 
 .front-end {
@@ -270,7 +269,7 @@ footer li a:hover {
 /* bullet items in resume */
 .resumeinfo li::before {
   content: "\2022";
-  color: rgb(178, 124, 229);
+  color: #e71335;
   font-weight: bold;
   display: inline-block;
   width: 1em;
