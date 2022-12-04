@@ -24,18 +24,55 @@ function App() {
     <div className=''>
       <Header>
         <BrowserRouter>
+          <div className='nav-bar'>
+
+            <NavLink
+              to="about"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}>About Me
+            </NavLink>
+
+            <NavLink
+              to="about"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}>Portfolio
+            </NavLink>
+
+            <NavLink
+              to="about"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}>Contact
+            </NavLink>
+
+            <NavLink
+              to="about"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}>Resume
+            </NavLink>
+
+          </div>
+
           <Routes>
-            <Route path='/about' element={<Resume />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/portfolio' element={<Portfolio />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
             <Route path='/resume' element={<Resume />}></Route>
           </Routes>
+
         </BrowserRouter>
       </Header>
 
       <Footer />
 
-    </div>
+    </div >
 
     // starter code
     // <div>
