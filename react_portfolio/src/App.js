@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import Header from "./components/HeaderNav";
-import Nav from "./components/HeaderNav";
+// import Header from "./components/Header";
+// import Nav from "./components/HeaderNav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -17,60 +18,60 @@ import Footer from "./components/Footer";
 function App() {
 
   // starter code
-  const [pageIndex, setPageIndex] = useState(0);
+  // const [pageIndex, setPageIndex] = useState(0);
 
   return (
 
     <div className=''>
-      <Header>
-        <BrowserRouter>
-          <div className='nav-bar'>
+      {/* <Header> */}
+      <BrowserRouter>
+        <div className='nav-bar'>
 
-            <NavLink
-              to="about"
-              style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
-              })}>About Me
-            </NavLink>
+          <NavLink
+            to="about"
+            style={({ isActive }) => ({
+              color: isActive ? '#fff' : '#545e6f',
+              background: isActive ? '#7600dc' : '#f0f0f0',
+            })}>About Me
+          </NavLink>
 
-            <NavLink
-              to="about"
-              style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
-              })}>Portfolio
-            </NavLink>
+          <NavLink
+            to="about"
+            style={({ isActive }) => ({
+              color: isActive ? '#fff' : '#545e6f',
+              background: isActive ? '#7600dc' : '#f0f0f0',
+            })}>Portfolio
+          </NavLink>
 
-            <NavLink
-              to="about"
-              style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
-              })}>Contact
-            </NavLink>
+          <NavLink
+            to="about"
+            style={({ isActive }) => ({
+              color: isActive ? '#fff' : '#545e6f',
+              background: isActive ? '#7600dc' : '#f0f0f0',
+            })}>Contact
+          </NavLink>
 
-            <NavLink
-              to="about"
-              style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
-              })}>Resume
-            </NavLink>
+          <NavLink
+            to="about"
+            style={({ isActive }) => ({
+              color: isActive ? '#fff' : '#545e6f',
+              background: isActive ? '#7600dc' : '#f0f0f0',
+            })}>Resume
+          </NavLink>
 
-          </div>
+        </div>
 
-          <Routes>
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/portfolio' element={<Portfolio />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
-          </Routes>
+        <Routes>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/portfolio' element={<Portfolio />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/resume' element={<Resume />}></Route>
+        </Routes>
 
-        </BrowserRouter>
-      </Header>
+      </BrowserRouter>
+      {/* </Header> */}
 
-      <Nav
+      {/* <Nav
         showAbout={() => setPageIndex(0)}
         showPortfolio={() => setPageIndex(1)}
         showContact={() => setPageIndex(2)}
@@ -86,7 +87,7 @@ function App() {
         <Resume />
       ) : (
         <About />
-      )}
+      )} */}
 
       <Footer />
 
