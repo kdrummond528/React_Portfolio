@@ -76,6 +76,7 @@ header {
 
 /* position my name in the top left of pg */
 .nameheader {
+  font-family: 'Suez One', serif;
   width: 40%;
   text-align: left;
   padding-top: 45px;
@@ -90,7 +91,7 @@ header {
 /* positioning of navbar */
 .navbar {
   width: 100%;
-  margin-left: 50%;
+  margin-left: 48%;
   margin-right: 20%;
   margin-top: -30px;
   margin-bottom: 50px;
@@ -201,6 +202,9 @@ footer li a:hover {
 .contactpgtitle,
 .portfoliopgtitle,
 .resumepgtitle {
+  font-family: 'Suez One', serif;
+  font-size: 28px;
+  color: #e71335;
   margin-top: 13%;
   margin-left: 6%;
 }
@@ -247,7 +251,7 @@ footer li a:hover {
 .contactinputtitle {
   font-weight: bold;
   padding-right: 70%;
-  color: #e71335;
+  color: gold;
   font-size: 18px;
 }
 

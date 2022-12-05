@@ -1,6 +1,4 @@
 import React from 'react';
-// import { useState, useEffect } from 'react';
-// import { formValues, isSubmit } from 'react-hooks';
 import { FaMobileAlt } from 'react-icons/fa';
 import { TfiEmail } from 'react-icons/tfi';
 import { SiWhatsapp } from 'react-icons/si';
@@ -11,12 +9,12 @@ const Contact = () => {
         e.preventDefault()
         setFormStatus('Sending...')
         const { name, email, message } = e.target.elements
-        let conFom = {
+        let inputValues = {
             name: name.value,
             email: email.value,
             message: message.value,
         }
-        console.log(conFom)
+        console.log(inputValues)
     }
 
     return (
