@@ -1,45 +1,19 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import NovelSipsImage from '../../assets/img/novelsips.png';
-
-const Portfolio = () => {
-    return (
-
-        <div>
-            <h2 className='portfoliopgtitle'>Portfolio</h2>
-
-            <div class="projectcards">
-
-                {/* 1st project card - Novel Sips */}
-                <div>
-                    {/* project img card */}
-                    <img className='novelsipsimg' src={NovelSipsImage} alt="Novel Sips App" />
-
-                    {/* only show these links on hover */}
-                    <div className='project-links'>
-                        {/* project title with external link to deployed site*/}
-                        <a className='projectlink' title="URL to deployed application." target="_blank" rel="noreferrer"
-                            href="https://mmllively.github.io/Novel_Sips/">
-                            Novel Sips</a>
-                        {/* github repo external link */}
-                        <a className='githubrepoicon' title="URL to GitHub Repository" target={"_blank"} rel="noreferrer"
-                            href="https://github.com/mmllively/Novel_Sips">
-                            <FaGithub size={'2.5em'} />
-                        </a>
-                    </div>
-
-                </div>
+import Project from '../Project';
 
 
-                {/* 2nd project card */}
-                <div>
-
-                </div>
-
-            </div>
-        </div >
-
-    );
+const project = {
+    name: 'project',
+    description: 'project',
+    id: '1',
 };
 
-export default Portfolio;
+export default function Portfolio() {
+    return (
+        <div>
+            <Project name={project.name}
+                description={project.description}
+                id={project.id} />
+        </div>
+    );
+}

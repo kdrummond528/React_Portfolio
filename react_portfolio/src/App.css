@@ -81,6 +81,10 @@ header {
   text-align: left;
   padding-top: 45px;
   padding-left: 30px;
+  font-size: 34px;
+  background: linear-gradient(to right, #d70a0a 0%, #e2f208 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nameheader a {
@@ -320,13 +324,13 @@ footer li a:hover {
 
 /* beginning of css for portfolio pg */
 /* container with all project cards in portfolio pg*/
-.projectcards {
+.projectcardscontainer {
   margin-left: 10%;
   margin-top: 30px;
 }
 
 /* image cards in portfolio pg */
-.novelsipsimg {
+.projectcardimg {
   height: 250px;
   width: 400px;
 }
@@ -342,7 +346,13 @@ footer li a:hover {
   text-decoration: none;
 }
 
-/* .githubrepoicon {} */
+.githubrepoicon {
+  color: gold;
+}
+
+.githubrepoicon:hover {
+  color: white;
+}
 
 /* beginning of css for resume pg */
 /* container for resume info */
