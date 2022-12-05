@@ -7,6 +7,9 @@ export default function Project(props) {
         width: '18rem',
     };
 
+    // const { name, repo, link, description } = project;
+
+
     return (
         <div>
 
