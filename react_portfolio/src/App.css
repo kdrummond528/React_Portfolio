@@ -107,7 +107,10 @@ header {
   font-weight: bold;
 }
 
+.active,
 .navlinks:hover {
+  color: #e71335;
+  font-weight: bold;
   cursor: pointer;
 }
 

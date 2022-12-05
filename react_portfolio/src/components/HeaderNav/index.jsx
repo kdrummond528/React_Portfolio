@@ -2,6 +2,16 @@ import React from 'react';
 
 const HeaderNav = ({ showAbout, showPortfolio, showContact, showResume }) => {
 
+    // const nav = document.getElementById("navbar");
+
+    // var lis = nav.getElementsByClassName("navlinks");
+    // for (var i = 0; i < lis.length; i++) {
+    //     lis[i].addEventListener("click", function () {
+    //         var current = document.getElementsByClassName("active");
+    //         current[0].className = current[0].className.replace(" active", "");
+    //         this.className += " active";
+    //     });
+
     return (
 
         <div>
