@@ -235,7 +235,7 @@ footer li a:hover {
 }
 
 /* beginning of css for contact pg */
-/* card with contact form */
+/* container with contact form */
 .contactform {
   margin-left: 6%;
   width: 40%;
@@ -248,14 +248,16 @@ footer li a:hover {
   font-weight: bold;
   padding-right: 70%;
   color: #e71335;
+  font-size: 18px;
 }
 
 /* input for user name and email on contact pg */
 .nameinput,
 .emailinput {
   margin-top: 10px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* input for user msg on contact pg */
@@ -264,18 +266,13 @@ footer li a:hover {
   height: 150px;
   margin-top: 10px;
   margin-bottom: 3px;
-}
-
-.errormsg {
-  color: gold;
-  padding-bottom: 10px;
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* submit button for contact form on contact pg */
 .contactform-submit-btn {
   margin-top: 10px;
-  width: 70px;
+  width: 100px;
   height: 35px;
   font-size: 14px;
   padding: 6px 6px;
