@@ -7,12 +7,6 @@ export default function Project(props) {
         width: '18rem',
     };
 
-    // Helper function that generates a random width for our placeholder images
-    // const randomWidth = () => {
-    //     const number = Math.random() * (300 - 200) + 200;
-    //     return number.toString().split('.')[0];
-    // };
-
     return (
         <div>
 
@@ -30,7 +24,7 @@ export default function Project(props) {
                         <h5 className="card-title">Name: {props.name}</h5>
                         <p className="card-text">Description: {props.description}</p>
                         <p className="card-text">ID: {props.id}</p>
-                        <a href="https://github.com/mmllively/Novel_Sips" className="githubrepoicon">
+                        <a href={props.repo} className="githubrepoicon">
                             <FaGithub /> {props.name}
                         </a>
                     </div>
