@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-import Home from './components/Home';
+// import Home from './components/Home';
 
 // import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
@@ -26,13 +26,29 @@ function App() {
     // starter code for nav bar
     <div>
       <Nav
-        showHome={() => setPageIndex(0)}
-        showAbout={() => setPageIndex(1)}
-        showPortfolio={() => setPageIndex(2)}
-        showContact={() => setPageIndex(3)}
-        showResume={() => setPageIndex(4)}
+        showAbout={() => setPageIndex(0)}
+        showPortfolio={() => setPageIndex(1)}
+        showContact={() => setPageIndex(2)}
+        showResume={() => setPageIndex(3)}
+      // showHome={() => setPageIndex(0)}
+      // showAbout={() => setPageIndex(1)}
+      // showPortfolio={() => setPageIndex(2)}
+      // showContact={() => setPageIndex(3)}
+      // showResume={() => setPageIndex(4)}
       />
       {pageIndex === 0 ? (
+        <About />
+      ) : pageIndex === 1 ? (
+        <Portfolio />
+      ) : pageIndex === 2 ? (
+        <Contact />
+      ) : pageIndex === 3 ? (
+        <Resume />
+      ) : (
+        <About />
+      )}
+
+      {/* {pageIndex === 0 ? (
         <Home />
       ) : pageIndex === 1 ? (
         <About />
@@ -44,7 +60,7 @@ function App() {
         <Resume />
       ) : (
         <Home />
-      )}
+      )} */}
 
       < Footer />
 
