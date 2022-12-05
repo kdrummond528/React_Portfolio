@@ -1,13 +1,13 @@
 import React from 'react';
 
-const HeaderNav = ({ showPageContent, showAbout, showPortfolio, showContact, showResume }) => {
+const HeaderNav = ({ showAbout, showPortfolio, showContact, showResume }) => {
 
     return (
 
         <div>
             <header>
                 {/* my name in the header */}
-                <h1 className="nameheader" onClick={showPageContent}>Karina Drummond</h1>
+                <h1 className="nameheader">Karina Drummond</h1>
 
                 {/* nav bar links in header */}
                 <nav className='navbar'>

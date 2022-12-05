@@ -15,6 +15,53 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.homepgcontainer {
+  box-sizing: border-box;
+}
+
+.bgimg img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgtext {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.enterbtn {
+  margin-top: 10px;
+  padding-bottom: 3px;
+  width: 60px;
+  height: 30px;
+  background-color: #e71335;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px 10px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -25,7 +72,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: none;
-
 }
 
 /* position my name in the top left of pg */
@@ -147,14 +193,7 @@ footer li a:hover {
   }
 }
 
-.bgimg {
-  box-sizing: border-box;
-  height: 100%;
-  background-image: url('./assets/img/');
-}
-
 /* pg titles for about, contact, portfolio, and resume */
-.homepgtitle,
 .aboutpgtitle,
 .contactpgtitle,
 .portfoliopgtitle,
@@ -184,13 +223,13 @@ footer li a:hover {
   background-color: #e71335;
 }
 
-/* .macbookimg {
+.macbookimg {
   width: 500px;
   height: 250px;
   margin-top: -140px;
   margin-left: 65%;
   position: fixed;
-} */
+}
 
 /* beginning of css for contact pg */
 /* card with contact form */

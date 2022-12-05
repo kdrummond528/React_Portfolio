@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-import PageContent from './components/PageContent';
+import Home from './components/Home';
 
 // import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
@@ -26,14 +26,14 @@ function App() {
     // starter code for nav bar
     <div>
       <Nav
-        showPageContent={() => setPageIndex(0)}
+        showHome={() => setPageIndex(0)}
         showAbout={() => setPageIndex(1)}
         showPortfolio={() => setPageIndex(2)}
         showContact={() => setPageIndex(3)}
         showResume={() => setPageIndex(4)}
       />
       {pageIndex === 0 ? (
-        <PageContent />
+        <Home />
       ) : pageIndex === 1 ? (
         <About />
       ) : pageIndex === 2 ? (
@@ -43,7 +43,7 @@ function App() {
       ) : pageIndex === 4 ? (
         <Resume />
       ) : (
-        <PageContent />
+        <Home />
       )}
 
       < Footer />
