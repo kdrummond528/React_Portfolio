@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import Nav from "./components/HeaderNav";
 import About from "./components/About";
-import Portfolio from "./components/Project";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
@@ -25,11 +25,13 @@ function App() {
 
     // starter code for nav bar
     <div>
+
       <Nav
         showAbout={() => setPageIndex(0)}
         showPortfolio={() => setPageIndex(1)}
         showContact={() => setPageIndex(2)}
         showResume={() => setPageIndex(3)}
+        active={pageIndex}
       // showHome={() => setPageIndex(0)}
       // showAbout={() => setPageIndex(1)}
       // showPortfolio={() => setPageIndex(2)}

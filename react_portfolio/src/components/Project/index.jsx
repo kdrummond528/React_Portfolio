@@ -13,8 +13,6 @@ export default function Project(props) {
     return (
         <div>
 
-            <h2 className='portfoliopgtitle'>Portfolio</h2>
-
             <div className="projectcardscontainer">
 
                 <div className="card" style={cardStyle}>
@@ -33,6 +31,8 @@ export default function Project(props) {
                     </div>
                 </div>
             </div>
+
+            <h1 onMouseEnter={() => { console.log("enter the dragon") }} onMouseLeave={() => { console.log("Elvis has left the building") }}>hello</h1>
 
         </div>
 

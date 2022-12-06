@@ -76,7 +76,7 @@ header {
 /* position my name in the top left of pg */
 .nameheader {
   font-family: 'Permanent Marker', cursive;
-  width: 40%;
+  width: 35%;
   text-align: left;
   padding-top: 32px;
   padding-left: 30px;
@@ -93,8 +93,8 @@ header {
 
 /* positioning of navbar */
 .navbar {
-  width: 48%;
-  margin-left: 52%;
+  width: 100%;
+  margin-left: 50%;
   margin-right: 20px;
   margin-top: -45px;
   margin-bottom: 50px;
@@ -110,13 +110,13 @@ header {
   font-family: 'Permanent Marker', cursive;
   color: #e71335;
   text-decoration: none;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 26px;
-  /* font-weight: bold; */
 }
 
-.navlink:hover {
+.navlink:hover,
+.active {
   color: gold;
   font-weight: bold;
   cursor: pointer;
@@ -129,6 +129,7 @@ footer {
   padding-top: 12px;
   padding-bottom: 5px;
   width: 100%;
+  background-color: black;
 }
 
 footer li {
@@ -145,7 +146,7 @@ footer li a {
 
 /* hover color change for footer links */
 footer li a:hover {
-  color: white;
+  color: #e71335;
 }
 
 /* shaking hover effect on footer and direct contact icons */
@@ -234,11 +235,11 @@ footer li a:hover {
 .aboutparagraph {
   box-shadow: 0 4px 8px 0 rgba(241, 230, 230, 0.724);
   transition: 0.3s;
-  width: 50%;
+  width: 45%;
   margin-left: 6%;
   margin-right: 6%;
   color: white;
-  /* border: 1px solid white; */
+  margin-bottom: 35px;
   border-radius: 10px 10px;
   padding: 15px 15px;
   font-size: 15px;
@@ -311,7 +312,7 @@ footer li a:hover {
   margin-left: 55%;
   margin-top: -370px;
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 .contactme-p {
@@ -330,7 +331,7 @@ footer li a:hover {
 .phoneicon:hover,
 .emailicon:hover,
 .whatsappicon:hover {
-  color: white;
+  color: #e71335;
 }
 
 /* beginning of css for portfolio pg */
@@ -362,7 +363,7 @@ footer li a:hover {
 }
 
 .githubrepoicon:hover {
-  color: white;
+  color: #e71335;
 }
 
 /* beginning of css for resume pg */
@@ -371,7 +372,7 @@ footer li a:hover {
   margin-left: 6%;
   padding-top: 30px;
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* placement of resume download icon */
@@ -385,6 +386,10 @@ footer li a:hover {
 .resumelink {
   color: gold;
   text-decoration: none;
+}
+
+.resumelink:hover {
+  color: #e71335;
 }
 
 /* title for resume proficiencies */
