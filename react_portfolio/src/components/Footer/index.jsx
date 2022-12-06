@@ -26,6 +26,9 @@ const Footer = () => {
                             <FaStackOverflow className='icon' size={"2em"} /></a>
                     </li>
                 </ul>
+
+                <p className='copyright'>&copy; 2022 Karina Drummond</p>
+
             </footer>
         </div >
 
