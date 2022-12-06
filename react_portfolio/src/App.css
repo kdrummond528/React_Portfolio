@@ -232,13 +232,16 @@ footer li a:hover {
 
 /* about me paragraph */
 .aboutparagraph {
+  box-shadow: 0 4px 8px 0 rgba(241, 230, 230, 0.724);
+  transition: 0.3s;
   width: 50%;
   margin-left: 6%;
   margin-right: 6%;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 10px 10px;
   padding: 15px 15px;
+  font-size: 15px;
   background-color: #e71335;
 }
 
