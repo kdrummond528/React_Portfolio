@@ -78,9 +78,9 @@ header {
   font-family: 'Permanent Marker', cursive;
   width: 40%;
   text-align: left;
-  padding-top: 34px;
+  padding-top: 32px;
   padding-left: 30px;
-  font-size: 40px;
+  font-size: 45px;
   background: linear-gradient(to right, #d70a0a 0%, #e2f208 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -93,10 +93,10 @@ header {
 
 /* positioning of navbar */
 .navbar {
-  width: 100%;
-  margin-left: 55%;
-  margin-right: 20%;
-  margin-top: -30px;
+  width: 48%;
+  margin-left: 52%;
+  margin-right: 20px;
+  margin-top: -45px;
   margin-bottom: 50px;
 }
 
