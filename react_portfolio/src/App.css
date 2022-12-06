@@ -102,18 +102,21 @@ header {
 }
 
 /* styling of links in navbar */
-.navlinks {
+.navlink {
+  display: inline;
+  list-style: none;
+}
+
+.navlink {
   color: white;
   text-decoration: none;
-  display: inline;
   padding-left: 35px;
   padding-right: 35px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.active,
-.navlinks:hover {
+.navlink:hover {
   color: #e71335;
   font-weight: bold;
   cursor: pointer;
