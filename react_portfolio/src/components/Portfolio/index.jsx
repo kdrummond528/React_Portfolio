@@ -1,5 +1,7 @@
 import React from 'react';
 import Project from '../Project';
+import NovelSipsImage from '../../assets/img/novelsips.png';
+import PasswordGenerator from '../../assets/img/passgen.png';
 
 export default function Portfolio() {
     const project = [
@@ -7,8 +9,9 @@ export default function Portfolio() {
             name: 'Novel Sips',
             description: 'enter what was used here...',
             id: 'do i even need this?',
-            link: "",
-            repo: "",
+            link: "https://mmllively.github.io/Novel_Sips/",
+            repo: "https://github.com/mmllively/Novel_Sips/",
+            img: { NovelSipsImage },
         },
         {
             name: 'Brews on your Block',
@@ -23,6 +26,7 @@ export default function Portfolio() {
             id: 'do i even need this?',
             link: "https://kdrummond528.github.io/Weather-Dashboard/",
             repo: "https://github.com/kdrummond528/Weather-Dashboard/",
+            img: "",
         },
         {
             name: 'Work Day Scheduler',
@@ -30,6 +34,7 @@ export default function Portfolio() {
             id: 'do i even need this?',
             link: "https://kdrummond528.github.io/Work-Day-Scheduler/",
             repo: "https://github.com/kdrummond528/Work-Day-Scheduler/",
+            img: "",
         },
         {
             name: 'Password Generator',
@@ -37,6 +42,7 @@ export default function Portfolio() {
             id: 'do i even need this?',
             link: "https://kdrummond528.github.io/Password-Generator/",
             repo: "https://github.com/kdrummond528/Password-Generator/",
+            img: { PasswordGenerator },
         },
         {
             name: 'Coding Quiz',
@@ -44,6 +50,7 @@ export default function Portfolio() {
             id: 'do i even need this?',
             link: "https://kdrummond528.github.io/Coding-Quiz/",
             repo: "https://github.com/kdrummond528/Coding-Quiz/",
+            img: "",
         }
     ];
     return (
