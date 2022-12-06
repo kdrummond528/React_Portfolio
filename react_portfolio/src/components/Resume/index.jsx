@@ -17,7 +17,11 @@ const Resume = () => {
 
             <section className='resumeinfo'>
                 <p>Download my resume</p>
-                <div className='resumedownloadicon'><a className='resumelink' href='../../assets/docs/KD Resume 2022.docx'> <BsCloudDownload size={'1.25em'} /></a></div>
+                <div className='resumedownloadicon'>
+                    <a className='resumelink' href='../../assets/docs/KD Resume 2022.docx'>
+                        <BsCloudDownload size={'1.25em'} />
+                    </a>
+                </div>
 
                 <div className='front-end'>
                     <h3 className='proficiencytitles'>Front-end Proficiencies</h3>
