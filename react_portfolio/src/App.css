@@ -336,26 +336,45 @@ footer li a:hover {
 
 /* beginning of css for portfolio pg */
 /* container with all project cards in portfolio pg*/
+.projectpgcontainer {
+  margin-bottom: 150px;
+}
+
 .projectcardscontainer {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+.projectcard {
+  margin-top: 20px;
   margin-left: 10%;
-  margin-top: 30px;
+  border: solid 1px white;
+  width: auto;
+  height: 150px;
 }
 
 /* image cards in portfolio pg */
-.projectcardimg {
+/* .projectcardimg {
   height: 250px;
   width: 400px;
-}
+} */
 
-.project-links {
-  margin-top: -190px;
-  margin-left: 50px;
+.projectlinks {
+  text-align: center;
 }
 
 /* project title in portfolio pg */
-.projectlink {
-  color: white;
+.deployedprojectlink {
+  color: gold;
   text-decoration: none;
+  padding-right: 5px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 28px;
+}
+
+.deployedprojectlink:hover {
+  color: #e71335;
 }
 
 .githubrepoicon {
