@@ -238,7 +238,7 @@ footer li a:hover {
 
 /* about me paragraph */
 .aboutparagraph {
-  box-shadow: 0 4px 8px 0 rgba(241, 230, 230, 0.724);
+  box-shadow: 0 4px 8px 0 gold;
   transition: 0.3s;
   width: 45%;
   margin-left: 6%;
@@ -351,20 +351,36 @@ footer li a:hover {
   display: inline-flex;
 }
 
+/* card with project img/link/info */
 .projectcard {
   margin-top: 20px;
-  margin-left: 10%;
-  border: solid 1px white;
-  width: auto;
-  height: 150px;
+  margin-left: 15%;
 }
 
-/* image cards in portfolio pg */
-/* .projectcardimg {
+/* image in portfolio project card */
+.projectcardimg {
   height: 250px;
   width: 400px;
-} */
+}
 
+/* hover effect to show project links */
+.projectcardimg:hover {
+  opacity: 0.2;
+}
+
+/* position of info that shows on project img hover */
+.hoverprojectinfo {
+  margin-left: -85%;
+  margin-top: 120px;
+  width: 100%;
+}
+
+/* position of info that shows on project img hover */
+.projectinfo {
+  text-align: center;
+}
+
+/* gh repo and deployed link  */
 .projectlinks {
   text-align: center;
 }

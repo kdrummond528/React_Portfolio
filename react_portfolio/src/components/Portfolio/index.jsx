@@ -16,7 +16,7 @@ export default function Portfolio() {
             id: 'pending',
             link: "https://mmllively.github.io/Novel_Sips/",
             repo: "https://github.com/mmllively/Novel_Sips/",
-            img: { NovelSips },
+            img: NovelSips,
         },
         {
             name: 'Brews on your Block',
@@ -24,7 +24,7 @@ export default function Portfolio() {
             id: 'pending',
             link: "https://mmllively.github.io/Brews_and_Cruise/",
             repo: "https://github.com/mmllively/Brews_and_Cruise/",
-            img: { BrewsOnYourBlock },
+            img: BrewsOnYourBlock,
         },
         {
             name: 'Weather Dashboard',
@@ -32,7 +32,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript/API',
             link: "https://kdrummond528.github.io/Weather-Dashboard/",
             repo: "https://github.com/kdrummond528/Weather-Dashboard/",
-            img: { WeatherDashboard },
+            img: WeatherDashboard,
         },
         {
             name: 'Work Day Scheduler',
@@ -40,7 +40,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript',
             link: "https://kdrummond528.github.io/Work-Day-Scheduler/",
             repo: "https://github.com/kdrummond528/Work-Day-Scheduler/",
-            img: { WorkDayScheduler },
+            img: WorkDayScheduler,
         },
         {
             name: 'Password Generator',
@@ -48,7 +48,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript',
             link: "https://kdrummond528.github.io/Password-Generator/",
             repo: "https://github.com/kdrummond528/Password-Generator/",
-            img: { PasswordGenerator },
+            img: PasswordGenerator,
         },
         {
             name: 'Coding Quiz',
@@ -56,7 +56,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript/JQuery',
             link: "https://kdrummond528.github.io/Coding-Quiz/",
             repo: "https://github.com/kdrummond528/Coding-Quiz/",
-            img: { CodingQuiz },
+            img: CodingQuiz,
         }
     ];
     return (
