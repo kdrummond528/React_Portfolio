@@ -6,11 +6,14 @@ const HeaderNav = ({ showAbout, showPortfolio, showContact, showResume, active }
 
         <div>
             <header>
-                {/* my name in the header */}
-                <h1 className="nameheader">Karina Drummond</h1>
-
-                {/* nav bar links in header */}
                 <nav className='navbar'>
+
+                    {/* my name in the header */}
+                    <h1 className="nameheader">Karina Drummond</h1>
+
+                    {/* nav bar links in header */}
+                    {/* <nav className='navbar'> */}
+
                     <ul>
 
                         {/* link to about pg */}
