@@ -1,13 +1,14 @@
 import React from 'react';
 import Project from '../Project';
-// import NovelSipsImage from '../../assets/img/novelsips.png';
-// import BrewsOnYourBlock from '../../assets/img/boyb.png';
-// import WeatherDashboard from '../../assets/img/weatherdash.png';
-// import WorkDayScheduler from '../../assets/img/workdaysched.png';
-// import PasswordGenerator from '../../assets/img/passgen.png';
-// import CodingQuiz from '../../assets/img/codingquiz.png';
+import NovelSips from '../../assets/img/novelsips.png';
+import BrewsOnYourBlock from '../../assets/img/boyb.png';
+import WeatherDashboard from '../../assets/img/weatherdash.png';
+import WorkDayScheduler from '../../assets/img/workdaysched.png';
+import PasswordGenerator from '../../assets/img/passgen.png';
+import CodingQuiz from '../../assets/img/codingquiz.png';
 
 export default function Portfolio() {
+
     const project = [
         {
             name: 'Novel Sips',
@@ -15,7 +16,7 @@ export default function Portfolio() {
             id: 'pending',
             link: "https://mmllively.github.io/Novel_Sips/",
             repo: "https://github.com/mmllively/Novel_Sips/",
-            img: "novelsips",
+            img: { NovelSips },
         },
         {
             name: 'Brews on your Block',
@@ -23,7 +24,7 @@ export default function Portfolio() {
             id: 'pending',
             link: "https://mmllively.github.io/Brews_and_Cruise/",
             repo: "https://github.com/mmllively/Brews_and_Cruise/",
-            img: "../../assets/img/boyb.png",
+            img: { BrewsOnYourBlock },
         },
         {
             name: 'Weather Dashboard',
@@ -31,7 +32,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript/API',
             link: "https://kdrummond528.github.io/Weather-Dashboard/",
             repo: "https://github.com/kdrummond528/Weather-Dashboard/",
-            img: "../../assets/img/weatherdash.png",
+            img: { WeatherDashboard },
         },
         {
             name: 'Work Day Scheduler',
@@ -39,7 +40,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript',
             link: "https://kdrummond528.github.io/Work-Day-Scheduler/",
             repo: "https://github.com/kdrummond528/Work-Day-Scheduler/",
-            img: "../../assets/img/workdaysched.png",
+            img: { WorkDayScheduler },
         },
         {
             name: 'Password Generator',
@@ -47,7 +48,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript',
             link: "https://kdrummond528.github.io/Password-Generator/",
             repo: "https://github.com/kdrummond528/Password-Generator/",
-            img: "../../assets/img/passgen.png",
+            img: { PasswordGenerator },
         },
         {
             name: 'Coding Quiz',
@@ -55,7 +56,7 @@ export default function Portfolio() {
             id: 'HTML/CSS/JavaScript/JQuery',
             link: "https://kdrummond528.github.io/Coding-Quiz/",
             repo: "https://github.com/kdrummond528/Coding-Quiz/",
-            img: "../../assets/img/codingquiz.png",
+            img: { CodingQuiz },
         }
     ];
     return (
