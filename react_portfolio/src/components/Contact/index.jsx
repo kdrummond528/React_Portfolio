@@ -24,6 +24,7 @@ const Contact = () => {
             <h2 className='contactpgtitle'>Contact</h2>
 
             <div className='directcontactinfo'>
+                {/* phone number */}
                 <a className='phoneicon' href="tel:+14072719542" title="Call or text me!">
                     <FaMobileAlt className='icon' size={'2rem'} /></a>
                 {/* email */}
