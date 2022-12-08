@@ -13,7 +13,7 @@ export default function Portfolio() {
         {
             name: 'Novel Sips',
             description: 'Provide a short description...',
-            id: 'pending',
+            id: 'HTML/CSS/JavaScript',
             link: "https://mmllively.github.io/Novel_Sips/",
             repo: "https://github.com/mmllively/Novel_Sips/",
             img: NovelSips,
@@ -21,7 +21,7 @@ export default function Portfolio() {
         {
             name: 'Brews on your Block',
             description: 'Provide a short description...',
-            id: 'pending',
+            id: 'HTML/CSS/JavaScript/API',
             link: "https://mmllively.github.io/Brews_and_Cruise/",
             repo: "https://github.com/mmllively/Brews_and_Cruise/",
             img: BrewsOnYourBlock,
