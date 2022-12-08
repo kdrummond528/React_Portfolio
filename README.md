@@ -49,7 +49,9 @@ My portfolio using React Single Page Application showcasing my projects, includi
 
 ## Mock-up
 
-![mockup](../React_Portfolio/react_portfolio/src/assets/img/20-react-homework-demo-01.gif)
+The following animation shows the mock-up application's appearance and functionality:
+
+![mockup](./react_portfolio/src/assets/img/20-react-homework-demo-01.gif)
 
 [Back to top](#react-portfolio)
 
@@ -62,8 +64,11 @@ Video demonstration:
 Screenshots:
 
 ![aboutpg-screenshot](./react_portfolio/src/assets/img/aboutpg.png)
+
 ![portfoliopg-screenshot](./react_portfolio/src/assets/img/portfoliopg.png)
+
 ![contactpg-screenshot](./react_portfolio/src/assets/img/contactpg.png)
+
 ![resumepg-screenshot](./react_portfolio/src/assets/img/resumepg.png)
 
 [Back to top](#react-portfolio)
