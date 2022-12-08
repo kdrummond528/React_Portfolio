@@ -57,9 +57,7 @@ The following animation shows the mock-up application's appearance and functiona
 
 ## Demo
 
-Video demonstration: 
-
-- ![videodemo]()
+[Video Demonstration](https://drive.google.com/file/d/1g1pfoBuO8hU2QH4Mw6chtSQiRd2CnSh3/view)
 
 Screenshots:
 
