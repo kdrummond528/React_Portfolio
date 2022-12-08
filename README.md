@@ -63,13 +63,13 @@ Video demonstration:
 
 Screenshots:
 
-![aboutpg-screenshot](./react_portfolio/src/assets/img/aboutpg.png)
+![aboutpg-screenshot](./react_portfolio/src/assets/img/aboutmepg-ss.png)
 
-![portfoliopg-screenshot](./react_portfolio/src/assets/img/portfoliopg.png)
+![portfoliopg-screenshot](./react_portfolio/src/assets/img/portfoliopg-ss.png)
 
-![contactpg-screenshot](./react_portfolio/src/assets/img/contactpg.png)
+![contactpg-screenshot](./react_portfolio/src/assets/img/contactpg-ss.png)
 
-![resumepg-screenshot](./react_portfolio/src/assets/img/resumepg.png)
+![resumepg-screenshot](./react_portfolio/src/assets/img/resumepg-ss.png)
 
 [Back to top](#react-portfolio)
 

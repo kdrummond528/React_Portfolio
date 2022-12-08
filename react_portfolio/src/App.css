@@ -6,11 +6,11 @@
 body {
   background-image: url('./assets/img/macbook.png');
   background-position: fixed;
-  background-size: 500px 250px;
+  background-size: 700px 550px;
   background-repeat: no-repeat;
   background-color: black;
-  background-position: 0 bottom;
-  background-position-x: right;
+  background-position: right center;
+  /* background-position-x: right; */
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -244,7 +244,7 @@ footer li a:hover {
   margin-left: 6%;
   margin-right: 6%;
   color: white;
-  margin-bottom: 135px;
+  margin-bottom: 10%;
   border-radius: 10px 10px;
   padding: 15px 15px;
   font-size: 15px;
@@ -265,7 +265,7 @@ footer li a:hover {
   margin-left: 6%;
   width: 40%;
   margin-top: 10px;
-  margin-bottom: 140px;
+  margin-bottom: 13.25%;
 }
 
 /* title for input info on contact pg */
@@ -314,7 +314,7 @@ footer li a:hover {
 
 .contactmeinfo {
   width: 30%;
-  margin-left: 55%;
+  margin-left: 31%;
   margin-top: -370px;
   text-align: center;
   margin-bottom: 250px;
@@ -342,6 +342,7 @@ footer li a:hover {
 /* beginning of css for portfolio pg */
 /* container with all project cards in portfolio pg*/
 .projectpgcontainer {
+  background-color: black;
   margin-bottom: 150px;
 }
 
@@ -413,7 +414,7 @@ footer li a:hover {
   margin-left: 6%;
   padding-top: 30px;
   font-weight: bold;
-  margin-bottom: 150px;
+  margin-bottom: 17%;
 }
 
 /* placement of resume download icon */
