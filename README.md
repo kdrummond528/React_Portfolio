@@ -55,6 +55,21 @@ My portfolio using React Single Page Application showcasing my projects, includi
 
 ## Demo
 
+Video demonstration: 
+
+- ![videodemo]()
+
+Screenshots:
+
+![aboutpg-screenshot](./react_portfolio/src/assets/img/aboutpg.png)
+![portfoliopg-screenshot](./react_portfolio/src/assets/img/portfoliopg.png)
+![contactpg-screenshot](./react_portfolio/src/assets/img/contactpg.png)
+![resumepg-screenshot](./react_portfolio/src/assets/img/resumepg.png)
+
+[Back to top](#react-portfolio)
+
+## Links
+
 - [Deployed Application]()
 
 [Back to top](#react-portfolio)

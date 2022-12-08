@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 
-export default function Project(props) {
+export default function Project(element) {
     const [isShown, setIsShown] = useState(false);
     return (
 
@@ -10,23 +10,23 @@ export default function Project(props) {
             <div className="projectcard"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
-                <img src={props.img} alt={props.name}
+                <img src={element.img} alt={element.name}
                     className='projectcardimg' />
             </div>
             {isShown && (
                 <div className='hoverprojectinfo'>
                     <h2 className='projectlinks'>
                         {/* deployed application link */}
-                        <a href={props.link} target="_blank" rel="noreferrer" className="deployedprojectlink">
-                            {props.name}</a>
+                        <a href={element.link} target="_blank" rel="noreferrer" className="deployedprojectlink">
+                            {element.name}</a>
 
                         {/* github repo link */}
-                        <a href={props.repo} target="_blank" rel="noreferrer" className="githubrepoicon">
+                        <a href={element.repo} target="_blank" rel="noreferrer" className="githubrepoicon">
                             <FaGithub /></a>
                     </h2>
 
                     {/* project description and info */}
-                    <p className="projectinfo">{props.id}</p>
+                    <p className="projectinfo">{element.id}</p>
                 </div>
             )}
 

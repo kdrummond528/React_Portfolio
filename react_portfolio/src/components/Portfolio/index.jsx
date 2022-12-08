@@ -69,9 +69,6 @@ export default function Portfolio() {
                     description={element.description}
                     id={element.id} link={element.link}
                     repo={element.repo} img={element.img}
-
-                // onMouseEnter={() => { console.log("enter the dragon") }} onMouseLeave={() => { console.log("Elvis has left the building") }}
-
                 />
             })}
         </div>
