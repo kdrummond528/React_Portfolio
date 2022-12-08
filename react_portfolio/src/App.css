@@ -251,21 +251,24 @@ footer li a:hover {
   background-color: #e71335;
 }
 
-/* .macbookimg {
-  width: 500px;
-  height: 250px;
-  margin-top: -140px;
-  margin-left: 65%;
-  position: fixed;
-} */
-
 /* beginning of css for contact pg */
 /* container with contact form */
+.directcontactinfo {
+  margin-left: 23%;
+  margin-top: -40px;
+}
+
+/* .directcontactinfo-p {
+  padding-bottom: 10px;
+  padding-left: 24px;
+  font-size: 13px;
+} */
+
 .contactform {
   margin-left: 6%;
   width: 40%;
-  margin-top: 10px;
-  margin-bottom: 13.25%;
+  margin-top: 8px;
+  margin-bottom: 10.25%;
 }
 
 /* title for input info on contact pg */
@@ -310,14 +313,6 @@ footer li a:hover {
 
 .contactform-submit-btn:hover {
   cursor: pointer;
-}
-
-.contactmeinfo {
-  width: 30%;
-  margin-left: 31%;
-  margin-top: -370px;
-  text-align: center;
-  margin-bottom: 250px;
 }
 
 .contactme-p {
