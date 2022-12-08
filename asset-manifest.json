@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.399e36ef.css",
-    "main.js": "/React_Portfolio/static/js/main.98b3cf64.js",
+    "main.css": "/React_Portfolio/static/css/main.692c214c.css",
+    "main.js": "/React_Portfolio/static/js/main.f69b2bd5.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/novelsips.png": "/React_Portfolio/static/media/novelsips.4a1c3073f37242eb54f4.png",
     "static/media/boyb.png": "/React_Portfolio/static/media/boyb.d751f529785f9c8edfc6.png",
@@ -12,12 +12,12 @@
     "static/media/passgen.png": "/React_Portfolio/static/media/passgen.ab622b71cbaff1c465b5.png",
     "static/media/codingquiz.png": "/React_Portfolio/static/media/codingquiz.d858d42971cf3b288b1c.png",
     "index.html": "/React_Portfolio/index.html",
-    "main.399e36ef.css.map": "/React_Portfolio/static/css/main.399e36ef.css.map",
-    "main.98b3cf64.js.map": "/React_Portfolio/static/js/main.98b3cf64.js.map",
+    "main.692c214c.css.map": "/React_Portfolio/static/css/main.692c214c.css.map",
+    "main.f69b2bd5.js.map": "/React_Portfolio/static/js/main.f69b2bd5.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.399e36ef.css",
-    "static/js/main.98b3cf64.js"
+    "static/css/main.692c214c.css",
+    "static/js/main.f69b2bd5.js"
   ]
 }
