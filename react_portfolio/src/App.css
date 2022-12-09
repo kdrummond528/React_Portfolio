@@ -360,15 +360,13 @@ footer li a:hover {
 }
 
 /* hover effect to show project links */
-.projectcardimg:hover {
-  opacity: 0.2;
-}
 
 /* position of info that shows on project img hover */
 .hoverprojectinfo {
   margin-left: -85%;
   margin-top: 120px;
   width: 100%;
+  z-index: 100;
 }
 
 /* position of info that shows on project img hover */
