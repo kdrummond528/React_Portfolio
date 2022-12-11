@@ -378,8 +378,6 @@ footer li a:hover {
 /* gh repo and deployed link  */
 .projectlinks {
   text-align: center;
-  z-index: 100;
-
 }
 
 /* project title/deployed link in portfolio pg */
