@@ -77,8 +77,8 @@ header {
 /* position my name in the top left of pg */
 .nameheader {
   font-family: 'Permanent Marker', cursive;
-  width: 45%;
-  margin-left: 30px;
+  margin-top: 32px;
+  padding-left: 30px;
   font-size: 45px;
   background: linear-gradient(to right, #d70a0a 0%, #e2f208 100%);
   -webkit-background-clip: text;
@@ -95,14 +95,12 @@ header {
   width: 100%;
   margin-top: 32px;
   margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
 }
 
 .navbar ul {
   width: 55%;
   margin-left: 50%;
-  margin-top: -45px;
+  margin-top: -50px;
 }
 
 /* styling of links in navbar */
@@ -465,34 +463,11 @@ footer li a:hover {
   margin-left: -1em;
 }
 
+
 @media screen and (max-width: 1200px) {
 
-  .navbar ul {
-    margin-left: 45%;
-  }
-}
-
-
-@media screen and (max-width: 1050px) {
-
-  .nameheader {
-    margin-top: -15px;
-    margin-bottom: 12px;
-    width: 60%;
-  }
-
-  .navbar {
-    width: 100%;
-    margin-top: 32px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-  }
-
-  .navbar ul {
-    width: 100%;
-    margin-top: -20px;
-    margin-left: 1.5%;
+  .navlink {
+    margin-left: 1%;
   }
 
   .aboutpgtitle,
@@ -501,69 +476,16 @@ footer li a:hover {
   .resumepgtitle {
     margin-top: 16%;
   }
-}
-
-@media screen and (max-width: 400px) {
-
-  body {
-    background-image: none;
-  }
-
-  .nameheader {
-    margin-top: -24px;
-    margin-left: 25px;
-    text-align: center;
-    width: 50%;
-    font-size: 40px;
-  }
-
-  .navlink {
-    text-align: right;
-    font-size: 22px;
-    width: 100%;
-    display: grid;
-    margin-top: -1px;
-    margin-left: 46%;
-  }
-
-  .navbar ul {
-    width: 50%;
-    margin-top: -131px;
-    margin-right: 10px;
-  }
-
-  .aboutpgtitle,
-  .contactpgtitle,
-  .portfoliopgtitle,
-  .resumepgtitle {
-    margin-top: 35%;
-  }
-
-  .aboutparagraph {
-    width: auto;
-    margin-bottom: 100px;
-  }
 
   .directcontactinfo {
-    margin-left: 52%;
+    margin-left: 318px;
     margin-top: -40px;
-  }
-
-  .contactform {
-    margin-bottom: 100px;
-  }
-
-  .nameinput,
-  .emailinput,
-  .messageinput {
-    width: 330px;
   }
 
   .front-end {
     width: 80%;
   }
 
-  /* list with back end proficiencies */
   .back-end {
     width: 80%;
     margin-top: 20px;
@@ -571,10 +493,35 @@ footer li a:hover {
     margin-bottom: 100px;
   }
 
+  .projectcard {
+    width: auto;
+  }
+
+  .projectcardimg {
+    height: 250px;
+    width: 375px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .nameheader {
+    margin-top: -15px;
+  }
+
+  .navbar ul {
+    width: 100%;
+    margin-top: -4px;
+    margin-left: 1%;
+  }
+
+  .navlink {
+    margin-left: 1%;
+  }
+
   .projectcardscontainer {
     width: 55%;
-    /* box-sizing: border-box; */
-    /* display: grid; */
   }
 
   .projectcard {
@@ -582,8 +529,65 @@ footer li a:hover {
   }
 
   .projectcardimg {
-    height: 175px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .aboutpgtitle,
+  .contactpgtitle,
+  .portfoliopgtitle,
+  .resumepgtitle {
+    margin-top: 20%;
   }
 
+  .aboutparagraph {
+    margin-bottom: 100px;
+  }
+
+  .directcontactinfo {
+    margin-left: 225px;
+    margin-top: -40px;
+  }
+
+  .nameinput,
+  .emailinput,
+  .messageinput {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  body {
+    background-image: none;
+  }
+
+  .navbar {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .navlink {
+    font-size: 22px;
+  }
+
+
+  .nameheader {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .aboutpgtitle,
+  .contactpgtitle,
+  .portfoliopgtitle,
+  .resumepgtitle {
+    margin-top: 25%;
+  }
+
+  .aboutparagraph {
+    width: auto;
+  }
 }
