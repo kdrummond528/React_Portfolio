@@ -502,3 +502,88 @@ footer li a:hover {
     margin-top: 16%;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  body {
+    background-image: none;
+  }
+
+  .nameheader {
+    margin-top: -24px;
+    margin-left: 25px;
+    text-align: center;
+    width: 50%;
+    font-size: 40px;
+  }
+
+  .navlink {
+    text-align: right;
+    font-size: 22px;
+    width: 100%;
+    display: grid;
+    margin-top: -1px;
+    margin-left: 46%;
+  }
+
+  .navbar ul {
+    width: 50%;
+    margin-top: -131px;
+    margin-right: 10px;
+  }
+
+  .aboutpgtitle,
+  .contactpgtitle,
+  .portfoliopgtitle,
+  .resumepgtitle {
+    margin-top: 35%;
+  }
+
+  .aboutparagraph {
+    width: auto;
+    margin-bottom: 100px;
+  }
+
+  .directcontactinfo {
+    margin-left: 52%;
+    margin-top: -40px;
+  }
+
+  .contactform {
+    margin-bottom: 100px;
+  }
+
+  .nameinput,
+  .emailinput,
+  .messageinput {
+    width: 330px;
+  }
+
+  .front-end {
+    width: 80%;
+  }
+
+  /* list with back end proficiencies */
+  .back-end {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-bottom: 100px;
+  }
+
+  .projectcardscontainer {
+    width: 55%;
+    /* box-sizing: border-box; */
+    /* display: grid; */
+  }
+
+  .projectcard {
+    width: 80%;
+  }
+
+  .projectcardimg {
+    height: 175px;
+    width: 300px;
+  }
+
+}
