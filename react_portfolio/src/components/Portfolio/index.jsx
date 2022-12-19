@@ -23,7 +23,7 @@ export default function Portfolio() {
             name: 'Novel Sips',
             description: 'Provide a short description...',
             id: 'HTML/CSS/JavaScript/Node.js/Express/Handlebars',
-            link: "https://mmllively.github.io/Novel_Sips/",
+            link: "https://young-gorge-24694.herokuapp.com/",
             repo: "https://github.com/mmllively/Novel_Sips/",
             img: NovelSips,
         },
