@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import HauntedHolidays from '../../assets/img/hauntedholidays.png';
 import NovelSips from '../../assets/img/novelsips.png';
 import BrewsOnYourBlock from '../../assets/img/boyb.png';
 import WeatherDashboard from '../../assets/img/weatherdash.png';
@@ -10,6 +11,14 @@ import CodingQuiz from '../../assets/img/codingquiz.png';
 export default function Portfolio() {
 
     const project = [
+        {
+            name: 'Haunted Holidays',
+            description: 'Provide a short description...',
+            id: 'MERN/HTML/CSS/JavaScript',
+            link: "https://boiling-ridge-27905.herokuapp.com/",
+            repo: "https://github.com/KSoto18/Haunted-Holidays",
+            img: HauntedHolidays,
+        },
         {
             name: 'Novel Sips',
             description: 'Provide a short description...',
